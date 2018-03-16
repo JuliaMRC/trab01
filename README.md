@@ -5,8 +5,8 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Douglas da SIlva Sousa:douglass.sousa@outlook.com.br<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Douglas da SIlva Sousa: douglass.sousa@outlook.com.br<br>
+Ewerson Vieira Nascimento: ewersonv@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
