@@ -9,14 +9,12 @@ Douglas da SIlva Sousa:douglass.sousa@outlook.com.br<br>
 segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
 
 > A bilhetagem eletrônica já é uma realidade nos transportes públicos do nosso estado a algum tempo, diversas pessoas fazem uso do seu cartão pra se movimentar durante o dia-a-dia, seja de uso particular ou vinculado ao trabalho. Podemos dizer que a solução existente da conta do recado e atende bem o seu propósito, mas somente isso. Ainda temos que enfrentar diversos problemas com o uso do cartão como meio de "pagamento", problemas esses que nos custam tempo e dinheiro, como a recarga em que temos que enfrentar uma file enorme e taxas por perda ou quebra do cartão.
 
-A partir dessa visão começamos a buscar por alternativas que poderiam atuar como meio de pagamento das passagens, sendo que precisava ser acessível, seguro e de fácil recarga. A resposta estava na cara, ou melhor, no bolso! Nossos smartphones sem dúvida seriam a melhor solução.
+>A partir dessa visão começamos a buscar por alternativas que poderiam atuar como meio de pagamento das passagens, sendo que precisava ser acessível, seguro e de fácil recarga. A resposta estava na cara, ou melhor, no bolso! Nossos smartphones sem dúvida seriam a melhor solução.
 
-Através de tecnologias presentes nesses dispositivos seria possível efetuar o pagamento da mesma forma que já fazemos, apenas o aproximando do leitor, ou até mesmo com um qrcode gerado e lido por câmeras já presentes nos coletivos, mas que tem como finalidade a identificação de fraudes por comparação facial. Além do já esperado, esse novo método traria os benefícios da internet, facilitando a recarga de nossas passagens através de cartões de credito ou boletos bancários. Como essas funções teriam que ser controlados por meio de um software, ainda poderíamos ter um controle de nossos gastos, com históricos de transações, linhas utilizadas e muito mais.
+>Através de tecnologias presentes nesses dispositivos seria possível efetuar o pagamento da mesma forma que já fazemos, apenas o aproximando do leitor, ou até mesmo com um qrcode gerado e lido por câmeras já presentes nos coletivos, mas que tem como finalidade a identificação de fraudes por comparação facial. Além do já esperado, esse novo método traria os benefícios da internet, facilitando a recarga de nossas passagens através de cartões de credito ou boletos bancários. Como essas funções teriam que ser controlados por meio de um software, ainda poderíamos ter um controle de nossos gastos, com históricos de transações, linhas utilizadas e muito mais.
  
 
 ### 3.MINI-MUNDO Novo<br>
