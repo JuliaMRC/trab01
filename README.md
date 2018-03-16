@@ -7,6 +7,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 Integrantes do grupo<br>
 Douglas da Silva Sousa: douglass.sousa@outlook.com.br<br>
 Ewerson Vieira Nascimento: ewersonv@gmail.com<br>
+Julio Cesar da Silva Santos: jul10css.c@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
