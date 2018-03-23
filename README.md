@@ -1,4 +1,4 @@
-Integrantes do grupo# TRABALHO 01: Smart Pay
+# TRABALHO 01: Smart Pay
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
