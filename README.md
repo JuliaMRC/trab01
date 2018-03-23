@@ -1,4 +1,4 @@
-# TRABALHO 01: Smart Pay
+Integrantes do grupo# TRABALHO 01: Smart Pay
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
@@ -30,7 +30,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-![a relative link](arquivos/Mockup.pdf)
+![Mockup do projeto](arquivos/Mockup.pdf)
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
