@@ -37,14 +37,14 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-    * Quantidade de usuários do sistema transcol 
-    * Lista de e-mails para marketing
-    * Consumo por período determinado
-    * Ranking de linhas (Usuário)
-    * Ranking de linhas (Empresa)
-    * Preferencia de linhas por horarios
-    * 
-    * 
+    - Quantidade de usuários do sistema transcol 
+    - Lista de e-mails para marketing
+    - Consumo por período determinado
+    - Ranking de linhas (Usuário)
+    - Ranking de linhas (Empresa)
+    - Preferencia de linhas por horarios
+    - 
+    - 
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
