@@ -30,13 +30,13 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
- 
+I.	Relatório que informe ao usuário seu histórico de passagens como dia e horários em que usou o sistema.
+II.	Relatório de linhas do sistema de transporte público mais utilizadas e as menos utilizadas dependendo do horário.
+III.	Relatório que informe a gerencia qual a melhor forma de pagamento desejados pelos clientes: boleto bancário, cartão de credito, picpay ou em dinheiro em um posto de atendimento.
+IV.	Relatório que informe a gerencia bairros ou pontos de ônibus onde há maior concentração de passageiros que efetuam o embarque e o desembarque dos coletivos.
+V.	Relatório de tempo médio de viagem de cada linha de um terminal rodoviário a outro como também se o trajeto efetuado é o mais efetivo.
+VI.	Relatório direcionado ao usuário para controle de suas viagens como quantidade de passagens utilizadas durante o dia/semana/mês e se o valor de recarga utilizado atenderá sua média de demanda.
+
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
