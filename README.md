@@ -44,7 +44,8 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
-![Tabela de dados](https://github.com/grupo-SmartPay/trab01/blob/master/arquivos/bancoDeDados.ods?raw=true)
+![Tabelao de dados](https://github.com/grupo-SmartPay/trab01/blob/master/arquivos/bancoDeDados.ods?raw=true)
+![Tabela de dados separada](https://github.com/grupo-SmartPay/trab01/blob/master/arquivos/tabelasSeparadas.ods?raw=true)
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
