@@ -24,7 +24,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-![Mockup do projeto](arquivos/Mockup.pdf)
+<b style="font-size: 20px;">[Mockup do projeto](arquivos/Mockup.pdf)</b>
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
@@ -44,8 +44,8 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
-![Tabelao de dados](https://github.com/grupo-SmartPay/trab01/blob/master/arquivos/bancoDeDados.ods?raw=true) </br>
-![Tabela de dados separada](https://github.com/grupo-SmartPay/trab01/blob/master/arquivos/tabelasSeparadasNormalizadas.ods?raw=true)
+<b style="font-size:20px;"> [Tabelao de dados](arquivos/tabelasSeparadas.ods)</b> </br>
+<b style="font-size:20px;"> [Tabela de dados Normalizada](arquivos/tabelasSeparadasNormalizadas.ods)</br>
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
@@ -55,7 +55,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://github.com/grupo-SmartPay/trab01/raw/master/images/Modelo%20Conceitual.PNG)
+![Alt text](images/ModeloConceitual.PNG)
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
