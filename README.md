@@ -83,13 +83,13 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 
 >## Marco de Entrega 02 em: (23/04/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
-
+    USUÁRIO: Tabela que armazena as informações relacionadas ao usuário do sistema.<br>
+    HISTÓRICO: Tabela que armazena o histórico de pagamentos em datas e horarios específicos.
+    CARTÃO:Tabela que contém dados do cartão de passagem do usuário.
+    HORÁRIO:Contém dados sobre horarios das linhas
+    LINHA:Contém informações sobre a linha do ônibus.
+    
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
