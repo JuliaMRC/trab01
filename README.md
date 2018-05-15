@@ -70,16 +70,8 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo Via: em nosso trabalho decidimos separar o campo Via do Trajeto para implementar uma função no aplicativo que encontre as
-    linhas que passam por aquela via (ou próximas a ela) e levam o usuário ao destino solicitado.
-    b)
-    
-    Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    Trajeto: Criamos uma entidade de relacionamento entre as tabelas Via e Linha para implementar uma função no aplicativo que encontre     as linhas que passam por aquela via (ou próximas a ela) e levam o usuário ao destino solicitado.
+    Tipo_Horario: Essa tabela foi criada com o intuito de identificar qual o tipo de horario será seguido por aquela linha, dias úteis, feriados,atípicos entre feriados ou fins de semana.
 
 >## Marco de Entrega 02 em: (23/04/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
