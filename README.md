@@ -73,7 +73,11 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     [atributo]: [descrição da decisão]
     
     EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
+    a) Campo Via: em nosso trabalho decidimos separar o campo Via do Trajeto para implementar uma função no aplicativo que encontre as
+    linhas que passam por aquela via (ou próximas a ela) e levam o usuário ao destino solicitado.
+    b)
+    
+    Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
 
