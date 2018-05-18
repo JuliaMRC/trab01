@@ -78,13 +78,18 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 >## Marco de Entrega 02 em: (23/04/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
     
-    USUÁRIO: Tabela que armazena as informações relacionadas ao usuário do sistema.<br>
+    LOGRADOURO: Armazena informações sobre o logradouro (CEP, tipo e nome).
+    BAIRRO: Armazena informações sobre o bairro (nome e ID).
     HISTÓRICO: Tabela que armazena o histórico de pagamentos em datas e horarios específicos.
+    USUÁRIO: Tabela que armazena as informações relacionadas ao usuário do sistema.<br>
+    CIDADE: Armazena informações sobre a cidade (nome e ID).
     CARTÃO: Tabela que contém dados do cartão de passagem do usuário.
+    TERMINAL_SEQ: Contém informações sobre o terminal (ID e nome).
     HORÁRIO: Contém dados sobre horarios das linhas
     LINHA: Contém informações sobre a linha do ônibus.
-    CIDADE: Armazena o nome e o ID da cidade.
-    BAIRRO: Armazena o nome e o ID do bairro.
+       
+    
+    
     
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
