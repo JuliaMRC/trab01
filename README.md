@@ -92,13 +92,19 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     
     
 ### 6	MODELO LÓGICO<br>
+<!---
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
+--->
+![Alt text](images/ModeloLogico.PNG)
 
 ### 7	MODELO FÍSICO<br>
+[Modelo Físico - Intruções](sql/ddl.sql)
+<!---
         a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
+        (criação de tabelas, alterações, etc..)      
+--->    
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
