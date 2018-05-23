@@ -48,7 +48,7 @@ create table historico(
 	historico_data date,
 	historico_horario time,
 	historico_valor money,
-	usuario_cpf char(11)
+	usuario_cpf char(11),
 	PRIMARY KEY(historico_id));
 
 alter table historico add constraint FK_CPF FOREIGN KEY(usuario_cpf) references usuario(usuario_cpf);
