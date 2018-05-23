@@ -1,4 +1,4 @@
-﻿create table usuario (
+create table usuario (
 	usuario_cpf char(11),
 	usuario_nome varchar(150),
 	usuario_data_nascimento date,
@@ -16,7 +16,7 @@ create table logradouro (
 	PRIMARY KEY(cep)
 );
 
-alter table usuario add constraint FK_LOGRADOURO FOREIGN KEY(cep) references logradouro(cep);
+alter table usuario add constraint FK_USUARIO_LOGRADOURO FOREIGN KEY(cep) references logradouro(cep);
 
 create table bairro(
 	id_bairro serial,
@@ -24,14 +24,16 @@ create table bairro(
 	id_cidade serial,
 	PRIMARY KEY(id_bairro));
 
-alter table logradouro add constraint FK_BAIRRO FOREIGN KEY(id_bairro) references bairro(id_bairro);
+alter table logradouro add constraint FK_LOGRADOURO_BAIRRO FOREIGN KEY(id_bairro) references bairro(id_bairro);
 
 create table cidade(
 	id_cidade serial,
 	desc_cidade varchar(150),
-	flag_estado char(2));
+	flag_estado char(2),
+	PRIMARY KEY(id_cidade)
+);
 
-alter table bairro add constraint FK_CIDADE FOREIGN KEY(id_cidade) references cidade(id_cidade);
+alter table bairro add constraint FK_BAIRRO_CIDADE FOREIGN KEY(id_cidade) references cidade(id_cidade);
 
 create table cartao(
 	cartao_numero char(16),
@@ -40,7 +42,7 @@ create table cartao(
 	usuario_cpf char(11),
 	PRIMARY KEY(cartao_numero));
 
-alter table cartao add constraint FK_CPF FOREIGN KEY(usuario_cpf) references usuario(usuario_cpf);
+alter table cartao add constraint FK_CARTAO_CPF FOREIGN KEY(usuario_cpf) references usuario(usuario_cpf);
 
 create table historico(
 	historico_id serial,
@@ -51,7 +53,7 @@ create table historico(
 	usuario_cpf char(11),
 	PRIMARY KEY(historico_id));
 
-alter table historico add constraint FK_CPF FOREIGN KEY(usuario_cpf) references usuario(usuario_cpf);
+alter table historico add constraint FK_HISTORICO_CPF FOREIGN KEY(usuario_cpf) references usuario(usuario_cpf);
 
 create table horario(
 	horario_id serial,
@@ -68,7 +70,7 @@ create table tipo_horario(
 	desc_horario varchar(30),
 	PRIMARY KEY(tipo_horario_id));
 
-alter table horario add constraint FK_ID FOREIGN KEY(tipo_horario) references tipo_horario(tipo_horario_id);
+alter table horario add constraint FK_HORARIO_TIPOH FOREIGN KEY(tipo_horario) references tipo_horario(tipo_horario_id);
 
 create table terminal_seq(
 	terminal_seq_id smallserial,
