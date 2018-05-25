@@ -42,7 +42,8 @@ create table cartao(
 	usuario_cpf char(11),
 	PRIMARY KEY(cartao_numero));
 
-alter table cartao add constraint FK_CARTAO_CPF FOREIGN KEY(usuario_cpf) references usuario(usuario_cpf);
+alter table cartao add constraint FK_CARTAO_CPF FOREIGN KEY(usuario_cpf) 
+references usuario(usuario_cpf) MATCH FULL on delete cascade on update cascade;
 
 create table historico(
 	historico_id serial,
@@ -53,7 +54,8 @@ create table historico(
 	usuario_cpf char(11),
 	PRIMARY KEY(historico_id));
 
-alter table historico add constraint FK_HISTORICO_CPF FOREIGN KEY(usuario_cpf) references usuario(usuario_cpf);
+alter table historico add constraint FK_HISTORICO_CPF FOREIGN KEY(usuario_cpf) 
+references usuario(usuario_cpf) MATCH FULL on delete cascade on update cascade;
 
 create table horario(
 	horario_id serial,
@@ -70,23 +72,24 @@ create table tipo_horario(
 	desc_horario varchar(30),
 	PRIMARY KEY(tipo_horario_id));
 
-alter table horario add constraint FK_HORARIO_TIPOH FOREIGN KEY(tipo_horario) references tipo_horario(tipo_horario_id);
-
 create table terminal_seq(
 	terminal_seq_id smallserial,
 	desc_terminal varchar(50),
 	PRIMARY KEY(terminal_seq_id));
-
-
 
 create table linha(
 	numero_linha smallserial,
 	desc_linha varchar(150),
 	PRIMARY KEY (numero_linha));
 
+alter table horario add constraint FK_HORARIO_TIPOH FOREIGN KEY(tipo_horario) references tipo_horario(tipo_horario_id);
+alter table horario add constraint FK_HORARIO_TSEQ FOREIGN KEY(terminal_seq) references terminal_seq(terminal_seq_id);
+alter table horario add constraint FK_HORARIO_LINHA FOREIGN KEY(numero_linha) 
+references linha(numero_linha) MATCH FULL on delete cascade on update cascade;
+
 create table itinerario(
 	numero_linha smallserial,
-	id_via serial,
+	via_id serial,
 	sentido char(1),
 	sequencia smallint,
 	tipo char(1));
@@ -95,4 +98,8 @@ create table via(
 	via_id serial,
 	desc_via varchar(255),
 	PRIMARY KEY(via_id));
+
+alter table itinerario add constraint FK_ITINERARIO_LINHA FOREIGN KEY(numero_linha) 
+references linha(numero_linha) MATCH FULL on delete cascade on update cascade;
+alter table itinerario add constraint FK_ITINERARIO_VIA FOREIGN KEY(via_id) references via(via_id);   
 
