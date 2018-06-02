@@ -65,7 +65,6 @@ create table horario(
 	tipo_horario smallserial,
 	terminal_seq smallserial,
 	numero_linha smallserial,
-    terminal_seq_id smallserial,
 	desc_terminal varchar(50),
 	PRIMARY KEY(horario_id));
 
