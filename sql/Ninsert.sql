@@ -152,8 +152,12 @@ insert into itinerario values(507, 7, 'V', 25, 'D');
 /* tipo_horario */
 
 insert into tipo_horario values(1,'DIAS ÚTEIS');
+insert into tipo_horario values(2,'SÁBADO');
+insert into tipo_horario values(3,'DOMINGOS E FERIADOS');
+insert into tipo_horario values(4,'ATÍPICOS ENTRE FERIADOS');
 
 /* horario */
+
 /* 815 */
 insert into horario values(default,'05:30:00',NULL,'2017-05-28',1,1,815,'IFES');
 insert into horario values(default,'05:54:00',NULL,'2017-05-28',1,1,815,'IFES');
@@ -186,6 +190,7 @@ insert into horario values(default,'18:55:00',NULL,'2017-05-28',1,1,815,'IFES');
 insert into horario values(default,'19:10:00',NULL,'2017-05-28',1,1,815,'IFES');
 insert into horario values(default,'21:50:00',NULL,'2017-05-28',1,1,815,'IFES');
 insert into horario values(default,'22:10:00',NULL,'2017-05-28',1,1,815,'IFES');
+
 /* 507 */
 insert into horario values(default,'05:00:00',NULL,'2017-10-15',1,1,507,'TERMINAL LARANJEIRAS');
 insert into horario values(default,'05:20:00',NULL,'2017-10-15',1,1,507,'TERMINAL LARANJEIRAS');
