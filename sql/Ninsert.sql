@@ -1,3 +1,29 @@
+/* cidade */
+
+insert into cidade values(default,'Vila Velha','ES');
+insert into cidade values(default,'Vitoria','ES');
+insert into cidade values(default,'Serra','ES');
+insert into cidade values(default,'Cariacica','ES');
+insert into cidade values(default,'Linhares','ES');
+insert into cidade values(default,'Guarapari','ES');
+insert into cidade values(default,'Aracruz','ES');
+insert into cidade values(default,'Itapemirim','ES');
+insert into cidade values(default,'Colatina','ES');
+insert into cidade values(default,'Fundão','ES');
+
+/* bairro */
+
+insert into bairro values(default,'Itapuã',1);
+insert into bairro values(default,'Praia da Costa',1);
+insert into bairro values(default,'Jardim da Penha',2);
+insert into bairro values(default,'Praia do Canto',2);
+insert into bairro values(default,'Jardim Camburi',2);
+insert into bairro values(default,'Itaparica',1);
+insert into bairro values(default,'Laranjeiras',3);
+insert into bairro values(default,'Planalto Serrano',3);
+insert into bairro values(default,'Itaquari',4);
+insert into bairro values(default,'Santa Catarina',4);
+
 /* itinerario */
 
 insert into linha values(815,'IFES / T. LARANJEIRAS'); /* linha */
