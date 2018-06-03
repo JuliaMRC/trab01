@@ -37,6 +37,18 @@ insert into bairro values(default,'Planalto Serrano',3);
 insert into bairro values(default,'Itaquari',4);
 insert into bairro values(default,'Santa Catarina',4);
 
+/* logradouro */
+insert into logradouro values('29111111','Rua','Curitiba',1);
+insert into logradouro values('29111222','Avenida','São Paulo',2);
+insert into logradouro values('29111333','Avenida','Hugo Musso',2);
+insert into logradouro values('29111444','Rua','Amoreira',1);
+insert into logradouro values('29111555','Avenida','Nossa Senhora Da Penha',4);
+insert into logradouro values('29111666','Avenida','Rio Branco',4);
+insert into logradouro values('29111777','Rua','Três',7);
+insert into logradouro values('29111888','Rua','Ayrton Senna',7);
+insert into logradouro values('29111999','Rua','Humberto Pereira',6);
+insert into logradouro values('29222111','Travessa','Belina',10);
+
 /* itinerario */
 /* 815 ida */
 insert into via values(default,'IFES');
