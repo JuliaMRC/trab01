@@ -1,3 +1,16 @@
+/* linha */
+
+insert into linha values(815,'IFES / T. LARANJEIRAS');
+insert into linha values(507,'T. LARANJEIRAS / T. IBES VIA 3ª PONTE/RETA DA PENHA');
+insert into linha values(650,'T.VILA VELHA/T.IBES VIA PRAIA DE ITAPOÃ');
+insert into linha values(611,'T.ITAPARICA/PRAIA DA COSTA VIA ITAPOÃ/CREFES');
+insert into linha values(662,'T.VILA VELHA/PRAIA DA COSTA VIA CREFES - CIRCULAR');
+insert into linha values(508,'T.LARANJEIRAS/T.ITAPARICA VIA T.VILA VELHA/3ª PONTE/CAMBURI');
+insert into linha values(551,'T.JACARAIPE/T.ITAPARICA VIA T.CARAPINA/3ª PONTE');
+insert into linha values(501,'T.JACARAIPE/T.ITAPARICA VIA T.CARAPINA/3ª PONTE/T.VILA VELHA');
+insert into linha values(560,'T.LARANJEIRAS/T.ITAPARICA VIA CAMBURI/3ª PONTE');
+insert into linha values(520,'T.CARAPINA/T.VILA VELHA VIA RETA DA PENHA/3ª PONTE');
+
 /* cidade */
 
 insert into cidade values(default,'Vila Velha','ES');
@@ -25,9 +38,7 @@ insert into bairro values(default,'Itaquari',4);
 insert into bairro values(default,'Santa Catarina',4);
 
 /* itinerario */
-
-insert into linha values(815,'IFES / T. LARANJEIRAS'); /* linha */
-
+/* 815 ida */
 insert into via values(default,'IFES');
 insert into itinerario values(815, 1, 'I', 1, 'D');
 insert into via values(default,'AV. PAULO PEREIRA GOMES');
@@ -42,7 +53,7 @@ insert into via values(default,'RODOVIA NORTE/SUL');
 insert into itinerario values(815, 6, 'I', 6, 'D');
 insert into via values(default,'TERMINAL LARANJEIRAS');
 insert into itinerario values(815, 7, 'I', 7, 'D');
-
+/* 815 volta */
 insert into itinerario values(815, 7, 'V', 1, 'D');
 insert into itinerario values(815, 6, 'V', 2, 'D');
 insert into itinerario values(815, 5, 'V', 3, 'D');
@@ -51,8 +62,7 @@ insert into itinerario values(815, 3, 'V', 5, 'D');
 insert into itinerario values(815, 2, 'V', 6, 'D');
 insert into itinerario values(815, 1, 'V', 7, 'D');
 
-insert into linha values(507,'T. LARANJEIRAS / T. IBES VIA 3ª PONTE/RETA DA PENHA'); /* linha */
-
+/* 507 ida */
 insert into itinerario values(507, 7, 'I', 1, 'D');
 insert into itinerario values(507, 5, 'I', 2, 'D');
 insert into via values(default,'BR 101');
@@ -102,8 +112,7 @@ insert into via values(default,'RUA SÃO LUIZ');
 insert into itinerario values(507, 29, 'I', 25, 'D');
 insert into via values(default,'TERMINAL IBES');
 insert into itinerario values(507, 30, 'I', 26, 'D');
-
-
+/* 507 volta */
 insert into itinerario values(507, 7, 'V', 1, 'D');
 insert into via values(default,'RUA GODOFREDO SHNEIDER');
 insert into itinerario values(507, 31, 'V', 2, 'D');
@@ -140,10 +149,12 @@ insert into itinerario values(507, 39, 'V', 23, 'D');
 insert into itinerario values(507, 5, 'V', 24, 'D');
 insert into itinerario values(507, 7, 'V', 25, 'D');
 
-/* horario */
+/* tipo_horario */
 
 insert into tipo_horario values(1,'DIAS ÚTEIS');
 
+/* horario */
+/* 815 */
 insert into horario values(default,'05:30:00',NULL,'2017-05-28',1,1,815,'IFES');
 insert into horario values(default,'05:54:00',NULL,'2017-05-28',1,1,815,'IFES');
 insert into horario values(default,'06:05:00',NULL,'2017-05-28',1,1,815,'IFES');
@@ -175,7 +186,7 @@ insert into horario values(default,'18:55:00',NULL,'2017-05-28',1,1,815,'IFES');
 insert into horario values(default,'19:10:00',NULL,'2017-05-28',1,1,815,'IFES');
 insert into horario values(default,'21:50:00',NULL,'2017-05-28',1,1,815,'IFES');
 insert into horario values(default,'22:10:00',NULL,'2017-05-28',1,1,815,'IFES');
-
+/* 507 */
 insert into horario values(default,'05:00:00',NULL,'2017-10-15',1,1,507,'TERMINAL LARANJEIRAS');
 insert into horario values(default,'05:20:00',NULL,'2017-10-15',1,1,507,'TERMINAL LARANJEIRAS');
 insert into horario values(default,'05:35:00',NULL,'2017-10-15',1,1,507,'TERMINAL LARANJEIRAS');
