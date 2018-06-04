@@ -38,7 +38,7 @@ alter table bairro add constraint FK_BAIRRO_CIDADE FOREIGN KEY(id_cidade) refere
 create table cartao(
 	cartao_numero char(16),
 	cartao_titular varchar(150),
-	cartao_validade date,
+	cartao_validade char(5),
 	usuario_cpf char(11),
 	PRIMARY KEY(cartao_numero));
 
