@@ -63,6 +63,19 @@ insert into usuario values('78945612300','Diego Bolsoni','1993-01-04','diegobols
 insert into usuario values('44412344466','Ingrid Brum','1998-10-21','ingridbrum@gmail.com','brum010203','29111999');
 insert into usuario values('98788455611','Carolina Uliana','1997-06-18','caroluliana@gmail.com','carol78690','29222111');
 
+/* cartao */
+
+insert into cartao values('1111222233330000','Joao da Silva','06/2020','11122233344');
+insert into cartao values('1111222233331111','Jadson Teco','07/2019','11199988822');
+insert into cartao values('1111222233332222','Antonio Santos','07/2021','22233344455');
+insert into cartao values('1111222233333333','Amaro Neto','03/2024','12332145690');
+insert into cartao values('1111222233334444','Natalia Vieira','06/2021','12345612399');
+insert into cartao values('1111222233335555','Izabela Felix','04/2023','11111122288');
+insert into cartao values('1111222233336666','Gabriel Fernandes','05/2022','22211144477');
+insert into cartao values('1111222233337777','Diego Bolsoni','03/2020','78945612300');
+insert into cartao values('1111222233338888','Ingrid Brum','08/2024','44412344466');
+insert into cartao values('1111222233339999','Carolina Uliana','08/2022','98788455611');
+
 /* itinerario */
 
 /* 815 ida */
