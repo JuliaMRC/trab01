@@ -38,6 +38,7 @@ insert into bairro values(default,'Itaquari',4);
 insert into bairro values(default,'Santa Catarina',4);
 
 /* logradouro */
+
 insert into logradouro values('29111111','Rua','Curitiba',1);
 insert into logradouro values('29111222','Avenida','São Paulo',2);
 insert into logradouro values('29111333','Avenida','Hugo Musso',2);
@@ -49,7 +50,21 @@ insert into logradouro values('29111888','Rua','Ayrton Senna',7);
 insert into logradouro values('29111999','Rua','Humberto Pereira',6);
 insert into logradouro values('29222111','Travessa','Belina',10);
 
+/* usuario */
+
+insert into usuario values('11122233344','Joao da Silva','1992-12-20','joaodasilva@gmail.com','a1b2c3d4','29111111');
+insert into usuario values('11199988822','Jadson Teco','1996-10-10','jadteco@gmail.com','teco78910','29111222');
+insert into usuario values('22233344455','Antonio Santos','1988-10-20','antoniosantos@gmail.com','123456','29111333');
+insert into usuario values('12332145690','Amaro Neto','1982-07-01','amaroneto@gmail.com','abc123456','29111444');
+insert into usuario values('12345612399','Natalia Vieira','1997-11-17','nataliavieira@gmail.com','aaa123bbb','29111555');
+insert into usuario values('11111122288','Izabela Felix','1995-04-23','izabelafelix@gmail.com','abcd9182','29111666');
+insert into usuario values('22211144477','Gabriel Fernandes','1994-05-11','gabrielfernandes@gmail.com','lalala721','29111777');
+insert into usuario values('78945612300','Diego Bolsoni','1993-01-04','diegobolsoni@gmail.com','diego123456','29111888');
+insert into usuario values('44412344466','Ingrid Brum','1998-10-21','ingridbrum@gmail.com','brum010203','29111999');
+insert into usuario values('98788455611','Carolina Uliana','1997-06-18','caroluliana@gmail.com','carol78690','29222111');
+
 /* itinerario */
+
 /* 815 ida */
 insert into via values(default,'IFES');
 insert into itinerario values(815, 1, 'I', 1, 'D');
