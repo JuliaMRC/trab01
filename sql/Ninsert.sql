@@ -256,3 +256,16 @@ insert into horario values(default,'09:10:00',NULL,'2017-10-15',1,1,507,'TERMINA
 insert into horario values(default,'09:30:00',NULL,'2017-10-15',1,1,507,'TERMINAL LARANJEIRAS');
 insert into horario values(default,'09:50:00',NULL,'2017-10-15',1,1,507,'TERMINAL LARANJEIRAS');
 insert into horario values(default,'10:10:00',NULL,'2017-10-15',1,1,507,'TERMINAL LARANJEIRAS');
+
+/* historico */
+
+insert into historico values(default,815,'2017-07-01','07:30:32',3.40,'22211144477');
+insert into historico values(default,815,'2017-07-01','15:28:47',3.40,'22211144477');
+insert into historico values(default,507,'2017-06-05','07:45:00',1.70,'11199988822');
+insert into historico values(default,507,'2017-06-05','13:48:23',1.70,'11199988822');
+insert into historico values(default,507,'2017-06-08','07:50:11',1.70,'11199988822');
+insert into historico values(default,507,'2017-06-08','13:55:17',1.70,'11199988822');
+insert into historico values(default,560,'2017-05-31','20:29:13',1.70,'98788455611');
+insert into historico values(default,501,'2017-05-31','22:43:10',1.70,'98788455611');
+insert into historico values(default,615,'2017-01-31','10:23:41',3.40,'44412344466');
+insert into historico values(default,615,'2017-01-31','22:48:52',3.40,'44412344466');
