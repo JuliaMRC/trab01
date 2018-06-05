@@ -47,7 +47,7 @@ references usuario(usuario_cpf) MATCH FULL on delete cascade on update cascade;
 
 create table historico(
 	historico_id serial,
-	historico_linha varchar(4),
+	historico_linha smallserial,
 	historico_data date,
 	historico_horario time,
 	historico_valor money,
