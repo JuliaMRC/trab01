@@ -137,47 +137,37 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 SELECT * FROM linha;
-[linha](sql/img-select/linha.PNG)
-
+<br><img style="float:none" align="left" src="sql/img-select/linha.PNG"><br>
 
 SELECT * FROM cidade;
-![cidade](sql/img-select/cidade.PNG)
-
+<br><img style="float:none" align="left" src="sql/img-select/cidade.PNG"><br>
 
 SELECT * FROM bairro;
-![bairro](sql/img-select/bairro.PNG)
-
+<br><img style="float:none" align="left" src="sql/img-select/bairro.PNG"><br>
 
 SELECT * FROM logradouro;
-![logradouro](sql/img-select/logradouro.PNG)
-
+<br><img style="float:none" align="left" src="sql/img-select/logradouro.PNG"><br>
 
 SELECT * FROM usuario;
-![usuario](sql/img-select/usuario.PNG)
-
+<br><img style="float:none" align="left" src="sql/img-select/usuario.PNG"><br>
 
 SELECT * FROM cartao;
-![cartao](sql/img-select/cartao.PNG)
-
+<br><img style="float:none" align="left" src="sql/img-select/cartao.PNG"><br>
 
 SELECT * FROM via;
-![via](sql/img-select/via.PNG)
-
+<br><img style="float:none" align="left" src="sql/img-select/via.PNG"><br>
 
 SELECT * FROM itinerario;
-![itinerario](sql/img-select/itinerario.PNG)
-
+<br><img style="float:none" align="left" src="sql/img-select/itinerario.PNG"><br>
 
 SELECT * FROM tipo_horario;
-![tipo_horario](sql/img-select/tipo_horario.PNG)
-
+<br><img style="float:none" align="left" src="sql/img-select/tipo_horario.PNG"><br>
 
 SELECT * FROM horario;
-![horario](sql/img-select/horario.PNG)
-
+<br><img style="float:none" align="left" src="sql/img-select/horario.PNG"><br>
 
 SELECT * FROM historico;
-![historico](sql/img-select/historico.PNG)
+<br><img style="float:none" align="left" src="sql/img-select/historico.PNG"><br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
