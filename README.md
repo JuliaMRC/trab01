@@ -139,8 +139,10 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 SELECT * FROM linha;
 <br><img style="float:none" align="left" src="sql/img-select/linha.PNG"><br>
 
+
 SELECT * FROM cidade;
 <br><img style="float:none" align="left" src="sql/img-select/cidade.PNG"><br>
+
 
 SELECT * FROM bairro;
 <br><img style="float:none" align="left" src="sql/img-select/bairro.PNG"><br>
@@ -148,23 +150,30 @@ SELECT * FROM bairro;
 SELECT * FROM logradouro;
 <br><img style="float:none" align="left" src="sql/img-select/logradouro.PNG"><br>
 
+
 SELECT * FROM usuario;
 <br><img style="float:none" align="left" src="sql/img-select/usuario.PNG"><br>
+
 
 SELECT * FROM cartao;
 <br><img style="float:none" align="left" src="sql/img-select/cartao.PNG"><br>
 
+
 SELECT * FROM via;
 <br><img style="float:none" align="left" src="sql/img-select/via.PNG"><br>
+
 
 SELECT * FROM itinerario;
 <br><img style="float:none" align="left" src="sql/img-select/itinerario.PNG"><br>
 
+
 SELECT * FROM tipo_horario;
 <br><img style="float:none" align="left" src="sql/img-select/tipo_horario.PNG"><br>
 
+
 SELECT * FROM horario;
 <br><img style="float:none" align="left" src="sql/img-select/horario.PNG"><br>
+
 
 SELECT * FROM historico;
 <br><img style="float:none" align="left" src="sql/img-select/historico.PNG"><br>
