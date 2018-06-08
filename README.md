@@ -100,7 +100,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 ![Alt text](images/ModeloLogico.PNG)
 
 ### 7	MODELO FÍSICO<br>
-[Modelo Físico - Intruções](sql/ddl.sql)
+[Modelo Físico - Intruções](sql/Nddl.sql)
 <!---
         a) inclusão das instruções de criacão das estruturas DDL 
         (criação de tabelas, alterações, etc..)      
@@ -108,21 +108,29 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
+[Arquivo insert](sql/Ninsert.ddl)
+<!---
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
         b) formato .SQL
-
+--->
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+[Criacao das estruturas e insercoes](sql/estrutura_insercao.sql)
+<!---
         a) Junção dos scripts anteriores em um único script 
         (create para tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+--->
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
+[Exclusao das estruturas, criacao e insersao](sql/drop_estrutura_insersao.sql)
+<!---
         a) Junção dos scripts anteriores em um único script 
         (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+--->
 >## Marco de Entrega 03 em: (14/05/2018)<br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
