@@ -44,7 +44,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
-<b style="font-size:20px;"> [Tabelao de dados](arquivos/tabelasSeparadas.ods)</b> </br>
+<b style="font-size:20px;"> [Tabela de dados](arquivos/tabelasSeparadas.ods)</b> </br>
 <b style="font-size:20px;"> [Tabela de dados Normalizada](arquivos/tabelasSeparadasNormalizadas.ods)</br>
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
@@ -136,47 +136,39 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+
 SELECT * FROM linha;
-<br><img style="float:none" align="left" src="sql/img-select/linha.PNG"><br>
 
 
 SELECT * FROM cidade;
-<br><img style="float:none" align="left" src="sql/img-select/cidade.PNG"><br>
 
 
 SELECT * FROM bairro;
-<br><img style="float:none" align="left" src="sql/img-select/bairro.PNG"><br>
+
 
 SELECT * FROM logradouro;
-<br><img style="float:none" align="left" src="sql/img-select/logradouro.PNG"><br>
 
 
 SELECT * FROM usuario;
-<br><img style="float:none" align="left" src="sql/img-select/usuario.PNG"><br>
 
 
 SELECT * FROM cartao;
-<br><img style="float:none" align="left" src="sql/img-select/cartao.PNG"><br>
 
 
 SELECT * FROM via;
-<br><img style="float:none" align="left" src="sql/img-select/via.PNG"><br>
 
 
 SELECT * FROM itinerario;
-<br><img style="float:none" align="left" src="sql/img-select/itinerario.PNG"><br>
 
 
 SELECT * FROM tipo_horario;
-<br><img style="float:none" align="left" src="sql/img-select/tipo_horario.PNG"><br>
 
 
 SELECT * FROM horario;
-<br><img style="float:none" align="left" src="sql/img-select/horario.PNG"><br>
 
 
 SELECT * FROM historico;
-<br><img style="float:none" align="left" src="sql/img-select/historico.PNG"><br>
+
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
