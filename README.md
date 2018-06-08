@@ -136,6 +136,49 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+SELECT * FROM linha;
+[!linha](sql/img-select/linha.PNG)
+
+
+SELECT * FROM cidade;
+[!cidade](sql/img-select/cidade.PNG)
+
+
+SELECT * FROM bairro;
+[!bairro](sql/img-select/bairro.PNG)
+
+
+SELECT * FROM logradouro;
+[!logradouro](sql/img-select/logradouro.PNG)
+
+
+SELECT * FROM usuario;
+[!usuario](sql/img-select/usuario.PNG)
+
+
+SELECT * FROM cartao;
+[!cartao](sql/img-select/cartao.PNG)
+
+
+SELECT * FROM via;
+[!via](sql/img-select/via.PNG)
+
+
+SELECT * FROM itinerario;
+[!itinerario](sql/img-select/itinerario.PNG)
+
+
+SELECT * FROM tipo_horario;
+[!tipo_horario](sql/img-select/tipo_horario.PNG)
+
+
+SELECT * FROM horario;
+[!horario](sql/img-select/horario.PNG)
+
+
+SELECT * FROM historico;
+[!historico](sql/img-select/historico.PNG)
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
