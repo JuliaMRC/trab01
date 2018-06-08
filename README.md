@@ -137,38 +137,49 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-SELECT * FROM linha;
+<b>SELECT * FROM linha;
 
+![img](sql/img-select/linha.PNG)
 
-SELECT * FROM cidade;
+<b>SELECT * FROM cidade;
 
+![img](sql/img-select/cidade.PNG)
 
-SELECT * FROM bairro;
+<b>SELECT * FROM bairro;
 
+![img](sql/img-select/bairro.PNG)
 
-SELECT * FROM logradouro;
+<b>SELECT * FROM logradouro;
 
+![img](sql/img-select/logradouro.PNG)
 
-SELECT * FROM usuario;
+<b>SELECT * FROM usuario;
 
+![img](sql/img-select/usuario.PNG)
 
-SELECT * FROM cartao;
+<b>SELECT * FROM cartao;
 
+![img](sql/img-select/cartao.PNG)
 
-SELECT * FROM via;
+<b>SELECT * FROM via;
 
+![img](sql/img-select/via.PNG)
 
-SELECT * FROM itinerario;
+<b>SELECT * FROM itinerario;
 
+![img](sql/img-select/itinerario.PNG)
 
-SELECT * FROM tipo_horario;
+<b>SELECT * FROM tipo_horario;
 
+![img](sql/img-select/tipo_horario.PNG)
 
-SELECT * FROM horario;
+<b>SELECT * FROM horario;
 
+![img](sql/img-select/horario.PNG)
 
-SELECT * FROM historico;
+<b>SELECT * FROM historico;</b>
 
+![img](sql/img-select/historico.PNG)
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
