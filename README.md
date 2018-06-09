@@ -108,7 +108,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-[Arquivo insert](sql/Ninsert.ddl)
+[Arquivo insert](sql/Ninsert.sql)
 <!---
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
         b) formato .SQL
@@ -123,7 +123,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
         c) formato .SQL
 --->
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-[Exclusao das estruturas, criacao e insersao](sql/drop_estrutura_insersao.sql)
+[Exclusao das estruturas, criacao e insersao](sql/drop_estrutura_insercao.sql)
 <!---
         a) Junção dos scripts anteriores em um único script 
         (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
