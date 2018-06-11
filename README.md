@@ -204,9 +204,23 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 ![img](sql/img-select/select_logradouro_where.PNG)
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
-    b) Criar no mínimo 3 consultas com operadores aritméticos 
-    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
+     b) Criar no mínimo 3 consultas com operadores aritméticos
+  
+   SELECT SUM(historico_valor)FROM historico WHERE historico_valor = '3,40';</b>
+    
+   ![img](sql/img-select/select_sum1.PNG)
+    
+   SELECT SUM(historico_valor) FROM historico WHERE historico_valor = '1,70';
+    
+   ![img](sql/img-select/select_sum2.PNG)
+    
+   SELECT SUM(historico_valor) FROM historico;
+    
+   ![img](sql/img-select/select_sum3.PNG)
+    
+     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+     
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
