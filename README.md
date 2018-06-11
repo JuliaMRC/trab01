@@ -182,6 +182,27 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 ![img](sql/img-select/historico.PNG)
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+
+<b>SELECT * FROM cartao WHERE cartao_titular = 'Joao da Silva';</b>
+
+![img](sql/img-select/select_cartao_where.PNG)
+
+<b>SELECT * FROM historico WHERE historico_valor = '3,40';</b>
+
+![img](sql/img-select/select_historico_where.PNG)
+
+<b>SELECT * FROM itinerario WHERE via_id = '8';</b>
+
+![img](sql/img-select/select_itinerario_where.PNG)
+
+<b>SELECT * FROM itinerario WHERE numero_linha = '507';</b>
+
+![img](sql/img-select/select_itinerario2_where.PNG)
+
+<b>SELECT * FROM logradouro WHERE desc_tipo = 'Avenida';</b>
+
+![img](sql/img-select/select_logradouro_where.PNG)
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
