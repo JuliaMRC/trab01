@@ -15,7 +15,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 
 >A partir dessa visão começamos a buscar por alternativas que poderiam atuar como meio de pagamento das passagens, sendo acessível, seguro e fácil de utilizar. A resposta estava bem na nossa frente, nossos smartphones.
 
->Através de tecnologias presentes nesses dispositivos seria possível efetuar o pagamento da mesma forma que já conhecemos, apenas o aproximando do leitor, ou até mesmo com um qrcode gerado e lido por câmeras já presentes nos coletivos, mas que tem como finalidade a identificação de fraudes por comparação facial. Além das funções de pagamento de um cartão comum, esse novo método traria os benefícios da internet, facilitando a recarga de nossas passagens através de cartões de credito ou boletos bancários. Como essas funções teriam que ser controlados por meio de um software, ainda poderíamos ter um controle de nossos gastos, com históricos de transações, linhas utilizadas e muito mais.
+>Através de tecnologias presentes nesses dispositivos seria possível efetuar o pagamento da mesma forma que já conhecemos, apenas o aproximando do leitor, ou até mesmo com um qrcode gerado e lido por câmeras já presentes nos coletivos, mas que tem como finalidade a identificação de fraudes por comparação facial. Além do já esperado, esse novo método traria os benefícios da internet, facilitando a recarga de nossas passagens através de cartões de credito ou boletos bancários. Como essas funções teriam que ser controlados por meio de um software, ainda poderíamos ter um controle de nossos gastos, com históricos de transações, linhas utilizadas e muito mais.
  
 
 ### 3.MINI-MUNDO Novo<br>
@@ -224,6 +224,45 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
+
+   SELECT * FROM usuario WHERE usuario_nome LIKE 'A%';
+   
+   ![img](sql/img-select/like1.PNG)
+   
+   SELECT * FROM usuario WHERE usuario_nome LIKE '%a';
+
+   ![img](sql/img-select/like2.PNG)
+   
+   SELECT * FROM usuario WHERE usuario_email LIKE '%@gmail.com';
+
+   ![img](sql/img-select/like3.PNG)
+   
+   SELECT * FROM usuario WHERE usuario_email LIKE '%@hotmail.com';
+
+   ![img](sql/img-select/like4.PNG)
+   
+   SELECT usuario_nome,
+   CURRENT_DATE AS data_atual, usuario_data_nascimento,
+   extract('year' from usuario_data_nascimento)
+   FROM usuario;
+
+   ![img](sql/img-select/data1.PNG)
+   
+   SELECT usuario_nome, extract('year' from usuario_data_nascimento) 
+   AS ano_nascimento
+   FROM usuario;
+
+   ![img](sql/img-select/data2.PNG)
+
+   SELECT usuario_nome, date_part('year',(age(current_date,usuario_data_nascimento))) 
+   AS idade
+   FROM usuario;
+
+   ![img](sql/img-select/data3.PNG)
+   
+   SELECT AGE('1996-10-10','1992-12-20') as "qtd_dias";
+
+   ![img](sql/img-select/data4.PNG)
 
 >## Marco de Entrega 04 em: (04/06/2017)<br>
     
