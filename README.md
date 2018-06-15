@@ -30,9 +30,9 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-* Relatório que informe ao usuário seu histórico de passagens como dia e horários em que usou o sistema.
-* Relatório de linhas do sistema de transporte público mais utilizadas e as menos utilizadas dependendo do horário.
-* Relatório que informe a gerencia qual a melhor forma de pagamento desejados pelos clientes: boleto bancário, cartão de credito, picpay ou em dinheiro em um posto de atendimento.
+* Relatório que informe ao usuário seu histórico de passagens como dia e horários em que usou o sistema, as linhas utilizadas.
+* Relatório ao usuário que informe as linhas mais utilizadas e as menos utilizadas dependendo do horário.
+* Relatório direcionado ao usuário informando as melhores opções de linhas para sair de sua origem à seu destino.
 * Relatório que informe a gerencia bairros ou pontos de ônibus onde há maior concentração de passageiros que efetuam o embarque e o desembarque dos coletivos.
 * Relatório de tempo médio de viagem de cada linha de um terminal rodoviário a outro como também se o trajeto efetuado é o mais efetivo.
 * Relatório direcionado ao usuário para controle de suas viagens como quantidade de passagens utilizadas durante o dia/semana/mês e se o valor de recarga utilizado atenderá sua média de demanda.
