@@ -232,11 +232,11 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     
    ![img](sql/img-select/like2.PNG)
     
-   SELECT * FROM usuario WHERE usuario_nome LIKE 'A%';
+   SELECT * FROM usuario WHERE usuario_nome LIKE '%@gmail.com';
     
    ![img](sql/img-select/like3.PNG)
     
-   SELECT * FROM usuario WHERE usuario_email LIKE '%@gmail.com';
+   SELECT * FROM usuario WHERE usuario_email LIKE '%@hotmail.com';
     
    ![img](sql/img-select/like4.PNG)
     
