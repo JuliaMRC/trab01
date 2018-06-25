@@ -226,19 +226,19 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     
    SELECT * FROM usuario WHERE usuario_nome LIKE 'A%';
     
-    ![img](sql/img-select/like1.PNG)
+   ![img](sql/img-select/like1.PNG)
    
    SELECT * FROM usuario WHERE usuario_nome LIKE '%a';
     
-    ![img](sql/img-select/like2.PNG)
+   ![img](sql/img-select/like2.PNG)
     
    SELECT * FROM usuario WHERE usuario_nome LIKE 'A%';
     
-    ![img](sql/img-select/like3.PNG)
+   ![img](sql/img-select/like3.PNG)
     
    SELECT * FROM usuario WHERE usuario_email LIKE '%@gmail.com';
     
-    ![img](sql/img-select/like4.PNG)
+   ![img](sql/img-select/like4.PNG)
     
     b) Criar uma consulta para cada tipo de função data apresentada.
 
