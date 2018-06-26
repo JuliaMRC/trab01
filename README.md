@@ -205,6 +205,27 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
      a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
+     
+   SELECT * FROM historico WHERE historico_data = '01-07-2017' AND historico_valor = '3,40';
+   
+   ![img](sql/img-select/and1.PNG)
+   
+   SELECT via_id FROM itinerario WHERE numero_linha = '815' AND sentido = 'I';
+   
+   ![img](sql/img-select/and2.PNG)
+   
+   SELECT historico_linha, historico_valor FROM historico WHERE NOT historico_valor = '3,40';
+   
+   ![img](sql/img-select/not1.PNG)
+   
+   SELECT * FROM logradouro WHERE desc_logradouro = 'Rio Branco' OR id_bairro = '2';
+   
+   ![img](sql/img-select/or1.PNG)
+   
+   SELECT numero_linha FROM itinerario WHERE via_id = '2'  OR via_id = '7';
+   
+   ![img](sql/img-select/or2.PNG)     
+     
      b) Criar no mínimo 3 consultas com operadores aritméticos
   
    SELECT SUM(historico_valor)FROM historico WHERE historico_valor = '3,40';</b>
