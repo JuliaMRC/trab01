@@ -224,7 +224,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
    
    SELECT numero_linha, via_id FROM itinerario WHERE via_id = '2'  OR via_id = '7';
    
-        
+   ![img](sql/img-select/or2.PNG)     
      
      b) Criar no mínimo 3 consultas com operadores aritméticos
   
