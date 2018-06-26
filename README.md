@@ -242,6 +242,18 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     
      c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
      
+  ALTER TABLE usuario RENAME COLUMN email TO usuario_email;
+  
+  ![img](sql/img-select/rename1.PNG)
+
+  ALTER TABLE usuario ADD email2 varchar(50);
+  
+  ![img](sql/img-select/add1.PNG)
+
+  ALTER TABLE usuario DROP COLUMN email2;
+  
+  ![img](sql/img-select/drop1.PNG)
+     
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     
