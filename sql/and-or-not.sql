@@ -13,6 +13,6 @@ WHERE NOT historico_valor = '3,40';
 SELECT * FROM logradouro
 WHERE desc_logradouro = 'Rio Branco' OR id_bairro = '2';
 
-SELECT numero_linha
+SELECT numero_linha, via_id
 FROM itinerario
 WHERE via_id = '2'  OR via_id = '7';
