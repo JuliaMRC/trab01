@@ -1,4 +1,4 @@
-SELECT historico_linha 
+SELECT * 
 FROM historico
 WHERE historico_data = '01-07-2017' AND historico_valor = '3,40';
 
