@@ -222,7 +222,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
    
    ![img](sql/img-select/or1.PNG)
    
-   SELECT numero_linha FROM itinerario WHERE via_id = '2'  OR via_id = '7';
+   SELECT numero_linha, via_id FROM itinerario WHERE via_id = '2'  OR via_id = '7';
    
    ![img](sql/img-select/or2.PNG)     
      
