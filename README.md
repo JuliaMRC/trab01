@@ -341,7 +341,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
    GROUP BY cidade.id_cidade
    ORDER BY cidade.id_cidade;
    
-    ![img](sql/9_8/9_8_1.PNG)
+   ![img](sql/9_8/9_8_1.PNG)
    
    SELECT COUNT(logradouro.cep), bairro.desc_bairro
    FROM logradouro
@@ -350,7 +350,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
    GROUP BY bairro.desc_bairro
    ORDER BY bairro.desc_bairro;
    
-    ![img](sql/9_8/9_8_2.PNG)
+   ![img](sql/9_8/9_8_2.PNG)
    
    SELECT usuario.usuario_nome, usuario.usuario_cpf, usuario.usuario_data_nascimento, cartao.cartao_numero, cartao.cartao_validade
    FROM cartao
@@ -358,7 +358,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
    ON cartao.usuario_cpf = usuario.usuario_cpf
    ORDER BY usuario.usuario_nome;
    
-    ![img](sql/9_8/9_8_3.PNG)
+   ![img](sql/9_8/9_8_3.PNG)
    
    SELECT usuario.usuario_cpf, usuario.usuario_nome, usuario.usuario_data_nascimento, historico.historico_linha, historico.historico_data, historico.historico_horario, historico.historico_valor
    FROM usuario
@@ -366,7 +366,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
    ON usuario.usuario_cpf = historico.usuario_cpf
    ORDER BY usuario.usuario_nome;
    
-    ![img](sql/9_8/9_8_4.PNG)
+   ![img](sql/9_8/9_8_4.PNG)
    
    
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
