@@ -306,6 +306,32 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
+
+   SELECT COUNT(horario_id), numero_linha FROM horario GROUP BY numero_linha;
+   
+    ![img](sql/9_7/9_7_1.PNG)
+   
+   SELECT numero_linha, COUNT(sentido) FROM itinerario GROUP BY numero_linha;
+   
+    ![img](sql/9_7/9_7_2.PNG)
+   
+   SELECT historico_linha, COUNT(historico_id), SUM(historico_valor) FROM historico GROUP BY historico_linha ORDER BY historico_linha;
+   
+    ![img](sql/9_7/9_7_3.PNG)
+   
+   SELECT COUNT(id_cidade), flag_estado FROM cidade GROUP BY flag_estado;
+   
+    ![img](sql/9_7/9_7_4.PNG)
+   
+   SELECT COUNT(cep), desc_tipo FROM logradouro GROUP BY desc_tipo;
+   
+    ![img](sql/9_7/9_7_5.PNG)
+   
+   SELECT COUNT(sentido), via_id, numero_linha FROM itinerario GROUP BY numero_linha, via_id ORDER BY numero_linha, via_id LIMIT 10;
+   
+    ![img](sql/9_7/9_7_6.PNG)
+   
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
