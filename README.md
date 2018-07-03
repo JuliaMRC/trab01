@@ -333,6 +333,42 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
    
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+
+   SELECT COUNT(bairro.id_bairro), cidade.desc_cidade, cidade.id_cidade
+   FROM bairro
+   LEFT JOIN cidade
+   ON bairro.id_cidade = cidade.id_cidade
+   GROUP BY cidade.id_cidade
+   ORDER BY cidade.id_cidade;
+   
+    ![img](sql/9_8/9_8_1.PNG)
+   
+   SELECT COUNT(logradouro.cep), bairro.desc_bairro
+   FROM logradouro
+   LEFT JOIN bairro
+   ON logradouro.id_bairro = bairro.id_bairro
+   GROUP BY bairro.desc_bairro
+   ORDER BY bairro.desc_bairro;
+   
+    ![img](sql/9_8/9_8_2.PNG)
+   
+   SELECT usuario.usuario_nome, usuario.usuario_cpf, usuario.usuario_data_nascimento, cartao.cartao_numero, cartao.cartao_validade
+   FROM cartao
+   RIGHT JOIN usuario
+   ON cartao.usuario_cpf = usuario.usuario_cpf
+   ORDER BY usuario.usuario_nome;
+   
+    ![img](sql/9_8/9_8_3.PNG)
+   
+   SELECT usuario.usuario_cpf, usuario.usuario_nome, usuario.usuario_data_nascimento, historico.historico_linha, historico.historico_data, historico.historico_horario, historico.historico_valor
+   FROM usuario
+   RIGHT JOIN historico
+   ON usuario.usuario_cpf = historico.usuario_cpf
+   ORDER BY usuario.usuario_nome;
+   
+    ![img](sql/9_8/9_8_4.PNG)
+   
+   
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
