@@ -275,17 +275,25 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
     
     b) Criar uma consulta para cada tipo de função data apresentada.
     
+   SELECT usuario_nome,
+   CURRENT_DATE AS data_atual, usuario_data_nascimento,extract('year' from usuario_data_nascimento)
+   FROM usuario;
+    
    ![img](sql/img-select/data1.PNG)
    
-   
+  SELECT usuario_nome, extract('year' from usuario_data_nascimento) 
+  AS ano_nascimento
+  FROM usuario;
    
    ![img](sql/img-select/data2.PNG)
    
-   
+  SELECT usuario_nome, date_part('year',(age(current_date,usuario_data_nascimento))) 
+  AS idade
+  FROM usuario;
    
    ![img](sql/img-select/data3.PNG)
    
-   
+  SELECT AGE('1996-10-10','1992-12-20') as "qtd_dias";
    
    ![img](sql/img-select/data4.PNG)
 
