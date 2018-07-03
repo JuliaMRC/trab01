@@ -309,27 +309,27 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
 
    SELECT COUNT(horario_id), numero_linha FROM horario GROUP BY numero_linha;
    
-    ![img](sql/9_7/9_7_1.PNG)
+   ![img](sql/9_7/9_7_1.PNG)
    
    SELECT numero_linha, COUNT(sentido) FROM itinerario GROUP BY numero_linha;
    
-    ![img](sql/9_7/9_7_2.PNG)
+   ![img](sql/9_7/9_7_2.PNG)
    
-   SELECT historico_linha, COUNT(historico_id), SUM(historico_valor) FROM historico GROUP BY historico_linha ORDER BY historico_linha;
+   SELECT historico_linha, COUNT(historico_id), SUM(historico_valor) FROM historico GROUP BY historico_linha ORDER BY   historico_linha;
    
-    ![img](sql/9_7/9_7_3.PNG)
+   ![img](sql/9_7/9_7_3.PNG)
    
    SELECT COUNT(id_cidade), flag_estado FROM cidade GROUP BY flag_estado;
    
-    ![img](sql/9_7/9_7_4.PNG)
+   ![img](sql/9_7/9_7_4.PNG)
    
    SELECT COUNT(cep), desc_tipo FROM logradouro GROUP BY desc_tipo;
    
-    ![img](sql/9_7/9_7_5.PNG)
+   ![img](sql/9_7/9_7_5.PNG)
    
    SELECT COUNT(sentido), via_id, numero_linha FROM itinerario GROUP BY numero_linha, via_id ORDER BY numero_linha, via_id LIMIT 10;
    
-    ![img](sql/9_7/9_7_6.PNG)
+   ![img](sql/9_7/9_7_6.PNG)
    
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
