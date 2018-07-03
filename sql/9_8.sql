@@ -12,3 +12,9 @@ left join bairro
 on logradouro.id_bairro = bairro.id_bairro
 group by bairro.desc_bairro
 order by bairro.desc_bairro;
+
+select usuario.usuario_nome, usuario.usuario_cpf, usuario.usuario_data_nascimento, cartao.cartao_numero, cartao.cartao_validade
+from cartao
+right join usuario
+on cartao.usuario_cpf = usuario.usuario_cpf
+order by usuario.usuario_nome;
