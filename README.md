@@ -274,6 +274,22 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
    ![img](sql/img-select/like4.PNG)
     
     b) Criar uma consulta para cada tipo de função data apresentada.
+    
+   ![img](sql/img-select/data1.PNG)
+   
+   
+   
+   ![img](sql/img-select/data2.PNG)
+   
+   
+   
+   ![img](sql/img-select/data3.PNG)
+   
+   
+   
+   ![img](sql/img-select/data4.PNG)
+
+
 
 >## Marco de Entrega 04 em: (04/06/2017)<br>
     
