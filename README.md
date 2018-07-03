@@ -388,6 +388,7 @@ Gabriel Borlot Souza Barbosa: gborlotbarbosa@gmail.com<br>
         d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
         
 ### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+    As maiores dificuldades encontradas foram: definir o modelo conceitual (que é uma das bases do trabalho), fazê-lo refletir o que se encontrava no minimundo e realizar o backup da base de dados no pgadmin 4, pois recebíamos um erro na criação do arquivo que não conseguimos solucionar.
 >## Marco de Entrega Final em: (25/06/2018)<br>
         
 ### 14  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
