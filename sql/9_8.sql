@@ -18,3 +18,9 @@ from cartao
 right join usuario
 on cartao.usuario_cpf = usuario.usuario_cpf
 order by usuario.usuario_nome;
+
+select usuario.usuario_cpf, usuario.usuario_nome, usuario.usuario_data_nascimento, historico.historico_linha, historico.historico_data, historico.historico_horario, historico.historico_valor
+from usuario
+right join historico
+on usuario.usuario_cpf = historico.usuario_cpf
+order by usuario.usuario_nome;
